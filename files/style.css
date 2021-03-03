@@ -1,0 +1,25 @@
+/* form-head num form-body step1 */
+body{
+    min-height: 150vh;
+}
+.form-head{
+    text-align: center;
+    position: sticky;
+    top:0;
+    background: #fff;
+    direction: rtl;;
+}
+.form-head li{
+    list-style: none;
+    display: inline-block;
+    border:1px solid #000;
+    padding:25px;
+}
+.active{
+    background:orange;
+}
+.section-num{
+    border:1px solid #000;
+    padding:25px;
+min-height:250px;
+}
